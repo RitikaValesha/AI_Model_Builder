@@ -110,68 +110,6 @@ export function NewModelDialog({ isOpen, onClose, onSave }: NewModelDialogProps)
             />
           </div>
 
-          {/* <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-700">
-              Training Parameters
-            </h3>
-            <div className="grid grid-cols-3 gap-4">
-              <div>
-                <label className="block text-xs text-gray-500">
-                  Learning Rate
-                </label>
-                <input
-                  type="number"
-                  step="0.001"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                  value={formData.parameters.learningRate}
-                  onChange={(e) =>
-                    setFormData({
-                      ...formData,
-                      parameters: {
-                        ...formData.parameters,
-                        learningRate: parseFloat(e.target.value),
-                      },
-                    })
-                  }
-                />
-              </div>
-              <div>
-                <label className="block text-xs text-gray-500">Epochs</label>
-                <input
-                  type="number"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                  value={formData.parameters.epochs}
-                  onChange={(e) =>
-                    setFormData({
-                      ...formData,
-                      parameters: {
-                        ...formData.parameters,
-                        epochs: parseInt(e.target.value),
-                      },
-                    })
-                  }
-                />
-              </div>
-              <div>
-                <label className="block text-xs text-gray-500">Batch Size</label>
-                <input
-                  type="number"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                  value={formData.parameters.batchSize}
-                  onChange={(e) =>
-                    setFormData({
-                      ...formData,
-                      parameters: {
-                        ...formData.parameters,
-                        batchSize: parseInt(e.target.value),
-                      },
-                    })
-                  }
-                />
-              </div>
-            </div>
-          </div> */}
-
           <div className="flex justify-between gap-4 mt-6">
             <button
               type="button"
