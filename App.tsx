@@ -35,8 +35,6 @@ function App() {
       <aside className="w-64 bg-white border-r border-gray-200">
         <div className="p-6">
           <div className="flex items-center space-x-2">
-            {/* <Brain className="h-8 w-8 text-indigo-600" /> */}
-            {/* <span className="text-xl font-bold"><img src="Aventisia.png" alt="" /></span> */}
             <img
         className="h-15 w-15"
         src={Aventisia}
@@ -63,17 +61,14 @@ function App() {
               Extraction Builder
             </div>
             <a href="#" className="mt-1 group flex items-center px-2 py-2 text-sm font-medium rounded-md text-gray-600 hover:bg-gray-50">
-              {/* <Code className="mr-3 h-5 w-5" /> */}
               <img className="mr-3 h-4 w-4" src={Label} alt="Label" />
               Label Data
             </a>
             <a href="#" className="mt-1 group flex items-center px-2 py-2 text-sm font-medium rounded-md text-gray-600 hover:bg-gray-50">
-              {/* <Brain className="mr-3 h-5 w-5" /> */}
               <img className="mr-3 h-4 w-4" src={Model} alt="Model" />
               Model
             </a>
             <a href="#" className="mt-1 group flex items-center px-2 py-2 text-sm font-medium rounded-md text-gray-600 hover:bg-gray-50">
-              {/* <TestTube2 className="mr-3 h-5 w-5" /> */}
               <img className="mr-3 h-4 w-4" src={Test} alt="Test" />
               Test
             </a>
@@ -84,12 +79,10 @@ function App() {
               Help
             </div>
             <a href="#" className="mt-1 group flex items-center px-2 py-2 text-sm font-medium rounded-md text-gray-600 hover:bg-gray-50">
-              {/* <Settings className="mr-3 h-5 w-5" /> */}
               <img className="mr-3 h-4 w-4" src={Setting} alt="Setting" />
               Setting
             </a>
             <a href="#" className="mt-1 group flex items-center px-2 py-2 text-sm font-medium rounded-md text-gray-600 hover:bg-gray-50">
-              {/* <LifeBuoy className="mr-3 h-5 w-5" /> */}
               <img className="mr-3 h-4 w-4" src={Support} alt="Support" />
               Support
             </a>
